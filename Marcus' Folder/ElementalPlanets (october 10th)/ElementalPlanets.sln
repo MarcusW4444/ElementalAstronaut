@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementalPlanets", "ElementalPlanets.csproj", "{F515E4AF-4428-EA24-35DF-9A6E6FD687FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementalPlanets.Plugins", "ElementalPlanets.Plugins.csproj", "{56CD14C8-90A0-29EF-1B6D-64E712788882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F515E4AF-4428-EA24-35DF-9A6E6FD687FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F515E4AF-4428-EA24-35DF-9A6E6FD687FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F515E4AF-4428-EA24-35DF-9A6E6FD687FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F515E4AF-4428-EA24-35DF-9A6E6FD687FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CD14C8-90A0-29EF-1B6D-64E712788882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CD14C8-90A0-29EF-1B6D-64E712788882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CD14C8-90A0-29EF-1B6D-64E712788882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CD14C8-90A0-29EF-1B6D-64E712788882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
