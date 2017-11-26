@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="ElementalPlanets.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FireGolem.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Astronaut.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Vines2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GenericEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\IceGolem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy_Ice_FlamingSkull.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FirePatch.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy_Fire_Wizard.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy_Fire_Slug.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MicroVolcano.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Lavaball.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireGolem.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
