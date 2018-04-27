@@ -1,0 +1,32 @@
+﻿<Properties StartupItem="ElementalPlanets.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Void\Enemy_Void_Skeleton.cs">
+    <Files>
+      <File FileName="Assets\Scripts\TutorialSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Jungle\Enemy_Jungle_Monkey.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Weapons\TeslaLightning.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Jungle\Enemy_Jungle_Beetle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ethereal\EtherealManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ice\Enemy_Ice_DrillDiver.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ice\Enemy_Ice_FlamingSkull.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\Astronaut.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Menus\WeaponSwapHUD.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Jungle\Enemy_Jungle_MossGiant.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NotLockable.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Void\Enemy_Void_Crawler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Void\VoidProjectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Void\VoidThorns.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\ResistanceDrop.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Void\VoidGolem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Fire\Lava.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlanetSelector.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Fire\Lavaball.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Menus\EndingSequenceScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Void\Enemy_Void_Skeleton.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

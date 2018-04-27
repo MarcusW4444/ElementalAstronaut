@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1079843955539846}
+  m_IsPrefabParent: 1
+--- !u!1 &1079843955539846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4052977447975578}
+  - component: {fileID: 114849741109545244}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4052977447975578
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1079843955539846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.731634, y: -1.322151, z: 0.2109375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114849741109545244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1079843955539846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae7dae26c98fe8448488efc4ae98a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSourcePrefab: {fileID: 82207461572831272, guid: 7001b5cf52e237b4893f9ac6692b3511,
+    type: 2}
+  AudioGeneralPrefab: {fileID: 82523149249027932, guid: 27a97eb10c9484046b55d5831ad34fef,
+    type: 2}
+  MusicAudioMixer: {fileID: 243967260030538026, guid: 0463cadac20caf54eb72902af835bf0c,
+    type: 2}
+  EnvironmentAudioMixer: {fileID: 243170440390838854, guid: 0463cadac20caf54eb72902af835bf0c,
+    type: 2}
+  PlayerAudioMixer: {fileID: 243342927389312124, guid: 0463cadac20caf54eb72902af835bf0c,
+    type: 2}
+  CurrentMusic: {fileID: 0}
+  IntroSequenceMusic: {fileID: 8300000, guid: b57c74960ea62ba4f9c2f60cc43bf908, type: 3}
+  PlanetSelectMusic: {fileID: 8300000, guid: e63022f02744c6544b5bc8c8569a44c9, type: 3}
+  IcePlanetMusic: {fileID: 8300000, guid: 2cd253123d2906c4eb69bd680d73e2e6, type: 3}
+  FirePlanetMusic: {fileID: 8300000, guid: e77e9fed279971548940733ae52cb9e2, type: 3}
+  JunglePlanetMusic: {fileID: 8300000, guid: ac292e064166a694baaf60dfa6282627, type: 3}
+  JungleBranchesMusic: {fileID: 8300000, guid: cd6d9ba16eae88848ab52248ed4dc64f, type: 3}
+  VoidPlanetMusic: {fileID: 8300000, guid: 6b678a515c0c86e499981423144adcc9, type: 3}
+  BossMusic: {fileID: 8300000, guid: ac2769f9580127f468761acd843990a3, type: 3}
+  MiniBossMusic: {fileID: 0}
+  BossMusicPinch: {fileID: 0}
+  LevelCompleteMusic: {fileID: 8300000, guid: 539f8b7c3b3755c4cb1cea3cbe65e9b1, type: 3}
+  MaxLevelMusic: {fileID: 8300000, guid: de9f76d920198514da1e91d0386bd541, type: 3}
+  IceEtherealMusic: {fileID: 8300000, guid: fe54ae07d0901d74a90b37111f8a39a5, type: 3}
+  FireEtherealMusic: {fileID: 8300000, guid: 4717b2eb8cc50e94aa31988b93395e2b, type: 3}
+  JungleEtherealMusic: {fileID: 8300000, guid: f55b18aad24636c4ba5cf590b609bcfc, type: 3}
+  EtherealEmptyBackground: {fileID: 8300000, guid: 213f2f1a80122304980be8625a4659f1,
+    type: 3}
+  EndingSequenceWeakMusic: {fileID: 8300000, guid: cf9ffe375f6970e44b5eaa9ef9bf801b,
+    type: 3}
+  EndingSequenceGreatMusic: {fileID: 8300000, guid: 85e3f97b59635464f8262da4f5983fc9,
+    type: 3}
+  soundaudiodivider: 0
+  HealthPickup: {fileID: 8300000, guid: c087e6a0d42b68d47a9121fb6b6c3979, type: 3}
+  WeaponPickup: {fileID: 8300000, guid: 09e6a227a0814b2449e2701fd10f3303, type: 3}
+  PistolShoot: {fileID: 8300000, guid: 1322738f069e52d49bf58ee87fa0e8c2, type: 3}
+  TeleportSound1: {fileID: 8300000, guid: 614545734afef0a4aa12d8aa7d6df533, type: 3}
+  TeleportSound2: {fileID: 8300000, guid: 55489898243ed8642a59b4c27ee0e61a, type: 3}
+  PistolEmpty: {fileID: 8300000, guid: 27aab1db91020234c916f6574d2150d2, type: 3}
+  PistolReload: {fileID: 8300000, guid: 79e0309c0ebf0c14b808f350fc99d62e, type: 3}
+  TipIn: {fileID: 8300000, guid: 8c519912a04f69e4f91f80948e72a3ba, type: 3}
+  ShotgunShoot: {fileID: 8300000, guid: 6a28449a6860d4143aa67d2faa7e1ee2, type: 3}
+  MachinegunShootLoop: {fileID: 8300000, guid: f1c171432bd7b704c8b828de65fcbfd2, type: 3}
+  BeamRifleStart: {fileID: 8300000, guid: ef783e0f23dd5004083a7cea2512dd07, type: 3}
+  BeamRifleLoop1: {fileID: 8300000, guid: 90d713c6094d7c84ebcde33226dd2ba3, type: 3}
+  BeamRifleLoop2: {fileID: 8300000, guid: 80ccbb509c14b5648964feb901f8e116, type: 3}
+  BeamRifleHit: {fileID: 8300000, guid: 152f0d05591b8c14cb7f8d65e1d949d5, type: 3}
+  BeamRifleDamage: {fileID: 8300000, guid: 0bcb5f740453f614aa9e87f5ab42cc56, type: 3}
+  BulletMiss: {fileID: 0}
+  BulletHitEnemy: {fileID: 0}
+  HitMarker: {fileID: 8300000, guid: a8d25f1655358ae4899668a247e72157, type: 3}
+  HitMarkerKill: {fileID: 8300000, guid: 43bbb2b5a830b8c4a906e4197f714856, type: 3}
+  AstronautFalling: {fileID: 8300000, guid: a2f7d80cca1e993458cb7a23c55dfe43, type: 3}
+  AstronautLanding1: {fileID: 8300000, guid: 5d7284c146e07a84fa0498a9c0b0d9b2, type: 3}
+  AstronautLanding2: {fileID: 8300000, guid: 96f4dda3a371afe429ea1f052814dae3, type: 3}
+  AstronautDeath1: {fileID: 8300000, guid: 566a67adfff5dac46ad5c4902d3a0ede, type: 3}
+  AstronautDeath2: {fileID: 8300000, guid: f8e70a9b4bfe1094a9f759570d3e6356, type: 3}
+  AstronautDeath3: {fileID: 8300000, guid: f35da7f1154bf254286a31e59bcd1734, type: 3}
+  StimSound: {fileID: 8300000, guid: 2e439085e1eb3324faf412fd859ad532, type: 3}
+  DeathSound: {fileID: 8300000, guid: c930317eb49647b4c8f8f6212b4211dd, type: 3}
+  ReviveSound: {fileID: 8300000, guid: a170ff2bb4dbe8d4383fcc11f2d79787, type: 3}
+  JumpSound: {fileID: 8300000, guid: cfe64964cc3fa9c4595a61f9a22d952d, type: 3}
+  DoubleJumpSound: {fileID: 8300000, guid: fa00cc4a2a810e342bbb3a635193fa63, type: 3}
+  JumpLand: {fileID: 8300000, guid: b8534eb9a860bac46a003dda44bc5756, type: 3}
+  ElementGetSound: {fileID: 8300000, guid: f4d2259692c134b40803453d203d6c03, type: 3}
+  ElementAbsorbingSound: {fileID: 8300000, guid: bad79f92fcf83ef4d803982b5c5684c3,
+    type: 3}
+  FlameHoundShoot: {fileID: 8300000, guid: 2da236da74c25984ab44587bf7e64c48, type: 3}
+  LavaBurn: {fileID: 8300000, guid: 4d70d1cf3ba35d3408c73ba0b36e620b, type: 3}
+  FireballHit: {fileID: 8300000, guid: cc5fb899b2cbe554aa616e9694ce5a31, type: 3}
+  FireBallEnemyExplosion: {fileID: 8300000, guid: aa0bd7ae959e99e46b9cee9f9522648e,
+    type: 3}
+  FireHoundShootFireball: {fileID: 8300000, guid: 2da236da74c25984ab44587bf7e64c48,
+    type: 3}
+  FireElementPower: {fileID: 8300000, guid: 2a9f009cbbe06164eac86385ce66557d, type: 3}
+  JungleElementPower: {fileID: 8300000, guid: 38a6a55365cd13942954f8f404689419, type: 3}
+  FireBossRoar: {fileID: 8300000, guid: 3bd0c1d6f79035b45b26e31d3fb577b4, type: 3}
+  IceBossRoar: {fileID: 8300000, guid: 20a5b557a4110cc4aba69af068ee9bb8, type: 3}
+  JungleBossRoar: {fileID: 8300000, guid: 191a914925803cc4496c2229e7083099, type: 3}
+  ElementObtained: {fileID: 8300000, guid: bad79f92fcf83ef4d803982b5c5684c3, type: 3}
+  PowerLevelUp: {fileID: 8300000, guid: 3a1ed44bb4cf0a54c826302505b651fa, type: 3}
+  GolemDestroyed: {fileID: 8300000, guid: ab3f15d250cc7344aa5a3ef42d789b24, type: 3}
+  LowHealthAlertSound: {fileID: 8300000, guid: 309d09d2f870d4b499bd13463f29a4bb, type: 3}
+  VeryLowHealthAlertSound: {fileID: 8300000, guid: 90eae61fe6b2d85489d42417e977c845,
+    type: 3}
+  FreezeSound1: {fileID: 8300000, guid: e8d81a35154068e40ba07ca32e4a9d6d, type: 3}
+  FreezeSound2: {fileID: 8300000, guid: 23bb204974b78fb4bb8cc7e54741005c, type: 3}
+  FreezeSound3: {fileID: 8300000, guid: 692e249b36e07c048ab8a141b04022d3, type: 3}
+  FreezeSound4: {fileID: 8300000, guid: 58e5a0932b2aec04eaa0bc6cbdabeef3, type: 3}
+  MakeIcePillar: {fileID: 8300000, guid: 1da0d5fccf460654aab604c645d18ba8, type: 3}
+  VitaIncrease: {fileID: 8300000, guid: 0d2e5661ef20ef949b1ea0a6d1e9ed41, type: 3}
+  IcicleBreak1: {fileID: 8300000, guid: 4eccb785c3286a6429ec7dbb9071b133, type: 3}
+  IcicleBreak2: {fileID: 8300000, guid: 4d29316a960b32340b3be0bc33561871, type: 3}
+  SiphonCascade: {fileID: 0}
+  ElementGoalCollect: {fileID: 8300000, guid: df2cac2350aa8cd479590672965b49ce, type: 3}
+  MeltSound: {fileID: 8300000, guid: 2d3cbbb63508b6f43b0f3fe1375ded77, type: 3}
+  LavaPatchBurnLight: {fileID: 8300000, guid: 77b31da0c4b3c7641bb263a0dde40b4d, type: 3}
+  LavaPatchBurnHeavy: {fileID: 8300000, guid: ffc259a44b7ee2d4b9927f00658344da, type: 3}
+  WizardFireBallCast: {fileID: 8300000, guid: bf03d197824a5d54184fc8b5214a853a, type: 3}
+  WizardFireBallLaunch: {fileID: 8300000, guid: 2d324d77819555740aa67a99b8e12f22,
+    type: 3}
+  FireElementSinge: {fileID: 8300000, guid: 4d70d1cf3ba35d3408c73ba0b36e620b, type: 3}
+  CriticalBackSound: {fileID: 8300000, guid: 2e74d9734c3e2bc499b38507aca24407, type: 3}
+  EtherealRespawn: {fileID: 0}
+  DamageTakenSound: {fileID: 8300000, guid: 933f45323d50d2c4ba0b1fcdd07bb6d2, type: 3}
+  MudSquishSound: {fileID: 8300000, guid: 6a802a7b8fee4144090a731acb94ff4f, type: 3}
+  HeartbeatLowHP: {fileID: 8300000, guid: d85c1af73dd77364fa7cbdce96537ecc, type: 3}
+  MossGiantClubHit: {fileID: 8300000, guid: 9c851ffd552ae494ea4e487946dee3d9, type: 3}
+  PressedSound: {fileID: 8300000, guid: 4f0ae48b1b50a974b99291a245afd62e, type: 3}
+  BossCriticalHit1: {fileID: 8300000, guid: 84688141f4332ee4b8c03ea08e9fe6fe, type: 3}
+  BossCriticalHit2: {fileID: 8300000, guid: 65043a696279c7549af472769caa9c32, type: 3}
+  BossCriticalHit3: {fileID: 8300000, guid: 66c12004e748e1a4b9391aecf893a315, type: 3}
+  BossCriticalHit4: {fileID: 8300000, guid: 9919e814978d8934b8d5c89b9aeb40c6, type: 3}
+  BossCriticalHit5: {fileID: 8300000, guid: 578601e49fc09e346a6b47460d7c5375, type: 3}
+  BossCriticalHit6: {fileID: 8300000, guid: 8569bb2c7a0cd1d42a5e02ff8c17a8a5, type: 3}
+  BossCriticalHit7: {fileID: 8300000, guid: 745ba1cd683a8c342884bde7390b3a06, type: 3}
+  BossCriticalHit8: {fileID: 8300000, guid: bd3f6b8db46483847af736f89505d296, type: 3}
+  GrenadeExplosion: {fileID: 8300000, guid: 48bfe39f6954b784e8f0eb0da5333a1a, type: 3}
+  TyphoonSound: {fileID: 8300000, guid: 7716930fc2f28e649bd3a88104af67e7, type: 3}
+  BushGhostSneakAttack: {fileID: 8300000, guid: f59641011d3c15144bed9a70b5a2cb06,
+    type: 3}
+  GrenadeLaunch: {fileID: 8300000, guid: 43fb4c3bd3d52854ebbfdc94e21ad534, type: 3}
+  GrenadeDetonator: {fileID: 8300000, guid: 84d471d252d5eb34cbcfc0ed9c71a144, type: 3}
+  ResistancePickUp: {fileID: 8300000, guid: 692ec28f58a75994e90cad548f223585, type: 3}
+  QuellReadySound: {fileID: 0}
+  QuellStartSound: {fileID: 0}
+  QuellStopSound: {fileID: 0}
+  QuellBreakSound: {fileID: 0}
+  RailGunCharge: {fileID: 8300000, guid: ce665b1aee075aa418771a53dee75234, type: 3}
+  RailGunShootDry: {fileID: 8300000, guid: 569dc50b672f3594a801fec2aeb8eec3, type: 3}
+  RailGunShootMedium: {fileID: 8300000, guid: 31d086855589afd40bd13e972823f895, type: 3}
+  RailGunShootMax: {fileID: 8300000, guid: 537dc53f5c1ccec469c7549e1236cf50, type: 3}
+  RailGunOvercharge: {fileID: 8300000, guid: 21c8e9ec0bb858a43a752d4549601f74, type: 3}
+  TeslaGunStart: {fileID: 8300000, guid: 38305f240bc983840b2d2db5ba3ecfe2, type: 3}
+  TeslaGunNoTarget: {fileID: 8300000, guid: d86e4b12a7348514ea8847535df80cc4, type: 3}
+  TeslaGun1Target: {fileID: 8300000, guid: e4694775d4ac7874fa5c0c39f8c9c8b9, type: 3}
+  TeslaGunMoreTargets: {fileID: 8300000, guid: 7966def6d71dfba4a93d73005df44eec, type: 3}
+  TeslaGunChangeTargets: {fileID: 8300000, guid: 87b1d3c8035d2824990ed2d6ed6512c3,
+    type: 3}
+  VoidPhantom_SlashLaunch: {fileID: 8300000, guid: 3e04dd35d57f3194a955a897bef23a58,
+    type: 3}
+  VoidPhantom_SpawnClones: {fileID: 0}
+  VoidPhantom_SlashHit: {fileID: 8300000, guid: ebe547859d773fd4ba6209b25595c698,
+    type: 3}
+  VoidPhantom_SlashHitMelee: {fileID: 8300000, guid: 7b53381e55529e94e9bb6538ccb8a8e2,
+    type: 3}
+  VoidPhantom_SlashSwing: {fileID: 8300000, guid: d1873576448509a4aac3a301730f2037,
+    type: 3}
+  VoidSkeleton_Contact: {fileID: 8300000, guid: 5a6b0b41b34179242b81c0ee48aa7200,
+    type: 3}
+  IceShatter: {fileID: 8300000, guid: 0a0ac7db3d5168f4cad81bccbd0d993b, type: 3}
+  IceSkin: {fileID: 8300000, guid: aae319112ae13584ca4841dd785c8b42, type: 3}
+  IceSkinFrag: {fileID: 8300000, guid: b2e6770c4887303468b02495f9b0952b, type: 3}
+  VolcanoTelegraph: {fileID: 8300000, guid: d4bffb0505b66bc46842db9880d70758, type: 3}
+  VolcanoBlowing: {fileID: 8300000, guid: d62761cfa3ed07545a27056590d533b9, type: 3}
+  LavaPillarSpout: {fileID: 8300000, guid: b686158d8fc568045877c89a2e8a843a, type: 3}
+  LavaBallExplosion: {fileID: 8300000, guid: af46ac268b72ee043b9501706041ebf9, type: 3}
+  DragonFireBeamStart: {fileID: 8300000, guid: 2d324d77819555740aa67a99b8e12f22, type: 3}
+  DragonFireBeam: {fileID: 8300000, guid: 047a3b6e6040ad34992abada6791c6a2, type: 3}
+  DragonFireBeamHit: {fileID: 8300000, guid: ffc259a44b7ee2d4b9927f00658344da, type: 3}
+  TreeSuckSound: {fileID: 8300000, guid: e932189dfa77d5a498960213680a8ed4, type: 3}
+  MonkeyThrow: {fileID: 8300000, guid: d96e11f1e54962b449aa7b3e8c82a0c1, type: 3}
+  MossGiantSwing: {fileID: 8300000, guid: 1a0f5347a4e31244b93d5f1062727df0, type: 3}
+  FireElementPowerPressure: {fileID: 8300000, guid: cf4ceeb9edeb106468cf9baccac291a0,
+    type: 3}
+  LeechLoop: {fileID: 8300000, guid: 24cb8685078bf34469e94dbb7cde8896, type: 3}
+  ChainSlink: {fileID: 8300000, guid: 9043b59ba6a820e49b6c233af512d6fc, type: 3}
+  ChainAttach: {fileID: 8300000, guid: 2f4044f209a277148bc0893c8aeac926, type: 3}
+  EnemyKillSoundsSmall:
+  - {fileID: 8300000, guid: 977b5cc56fbbc2842b398923fab2a0ed, type: 3}
+  - {fileID: 8300000, guid: 471021f7b5cc22046b18158c435f52ae, type: 3}
+  - {fileID: 8300000, guid: 57f3df00510ddd642bb2630bc755c94e, type: 3}
+  - {fileID: 8300000, guid: 08152bfa45f5657499341230e52f0616, type: 3}
+  - {fileID: 8300000, guid: bd126e89e3d61044d89e1469b4dd3045, type: 3}
+  EnemyKillSoundsMedium:
+  - {fileID: 8300000, guid: 46c74f424e1893b408ab73b7d072b61c, type: 3}
+  - {fileID: 8300000, guid: f4e39750ca25c3e4283e0af61e52a179, type: 3}
+  - {fileID: 8300000, guid: 1f047e44344c69f40a5cbca6a9bb4590, type: 3}
+  - {fileID: 8300000, guid: e366e307ccbf6d344a4d0fff05f773a5, type: 3}
+  - {fileID: 8300000, guid: b889ba19b6d0e6945a3f5de86a87fb93, type: 3}
+  - {fileID: 8300000, guid: 84299022aae905446a5aaddfe07ae723, type: 3}
+  - {fileID: 8300000, guid: 91b87722cca9b5b4f9ef20e1713d0941, type: 3}
+  - {fileID: 8300000, guid: 83a38c4904a649c469b4cea22bff75a9, type: 3}
+  EnemyKillSoundsLarge:
+  - {fileID: 8300000, guid: 3ca9c153fc17be24ba76803574750460, type: 3}
+  - {fileID: 8300000, guid: 895a9ace96d40814687d36192b4867b0, type: 3}
+  - {fileID: 8300000, guid: 400fe2fc213c1fa48997fd9b33dbdb2a, type: 3}
+  - {fileID: 8300000, guid: 669b5e6ba0bd6c748bd236afbfc49665, type: 3}
+  - {fileID: 8300000, guid: 03d845fbba4d4854595fd3980ae004fe, type: 3}
+  - {fileID: 8300000, guid: 01d96f608a955a74ead68dc9866cd875, type: 3}
+  ShieldBashShift: {fileID: 8300000, guid: de85a71c4643a2b459645279a617ed28, type: 3}
+  VoidFireBallLaunch: {fileID: 8300000, guid: 2504138f3c7a2f9478211aedfbbf085b, type: 3}
+  VoidFireBallExplosion: {fileID: 8300000, guid: 9a812f4e45d097e4f91cd22fd6b4c5b9,
+    type: 3}
+  KLEECE: {fileID: 8300000, guid: 7b501032d9ba8e54e9ffe3f129c02c75, type: 3}
+  EndingFullyEnergized: {fileID: 8300000, guid: cd307feccf289f04eabcb319b76c2dfb,
+    type: 3}
+  KLEECEEXTENDED: {fileID: 8300000, guid: a6d27519a9a353b4faa7a45be873f277, type: 3}
+  IceReady: {fileID: 8300000, guid: 3afc164e09e583d4fa10c1529c5b1a8f, type: 3}
+  FireReady: {fileID: 8300000, guid: 2d324d77819555740aa67a99b8e12f22, type: 3}
+  JungleReady: {fileID: 8300000, guid: 13cc2e895f7f07c48815d759a2d7d2ac, type: 3}
+  ElementRotate: {fileID: 8300000, guid: 43bbb2b5a830b8c4a906e4197f714856, type: 3}
+  EnergyRecharge: {fileID: 8300000, guid: c68e9f11908531443b295d75e1e1cde4, type: 3}
+  DirectiveDisplay: {fileID: 8300000, guid: a4cc9d7fdf197d74287849bedff2377e, type: 3}
+  BiteSound: {fileID: 8300000, guid: db77a0c861303dc419c39ad55e1022b9, type: 3}
